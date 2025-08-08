@@ -1,0 +1,12 @@
+# .readthedocs.yaml
+version: 2
+
+sphinx:
+  configuration: docs/source/conf.py
+
+python:
+  version: 3.8
+  install:
+    - method: pip
+      path: .i:wq
+
